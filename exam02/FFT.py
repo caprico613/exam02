@@ -40,7 +40,7 @@ for i in range(0, int(sample)):
 if (sum > 5 or sum < -5):
     print("displacement > 5 cm")
 
-
+print(sum)
 
 # print(sum)
 
