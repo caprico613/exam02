@@ -35,10 +35,10 @@ for i in range(0, int(sample)):
     # print line
     z[i] = float(line)    
     sum = sum + x[i] * 100 * 9.8 * 0.01 / 2
-    if (sum > 5 or sum < -5):
-        displace[i] = 1
+    displace[i] = sum
 
-print(sum)
+if (sum > 5 or sum < -5):
+    print("displacement > 5 cm")
 
 
 
